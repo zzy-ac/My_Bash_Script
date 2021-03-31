@@ -1,3 +1,2 @@
 #!/bin/bash 
-yay --nodiffmenu --editmenu --nocleanmenu --save
-env EDITOR=nano yay
+yay --nodiffmenu --editmenu --nocleanmenu --editor nano --save && echo '您的yay已经升级完毕'
